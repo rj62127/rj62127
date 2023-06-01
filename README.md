@@ -5,5 +5,5 @@
 - 🌱 I’m currently learning Problem solving 
 - 📫 How to reach me: WhatsApp 9155009437
 - 😄 Pronouns: He/His
-- ⚡ Fun fact: I spend almost 6hrs listening songs everyday.
+
 
