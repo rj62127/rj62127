@@ -8,11 +8,17 @@ As a passionate software developer, I bring a blend of creativity and precision 
 🔧 Tech Stack:
 
 💻 Languages: C++, JAVA, Python
+
 🎯 Paradigm: Object-Oriented Programming (OOPs)
+
 📊 Databases: SQL, MySQL
+
 🌐 Web Development: Django, React, HTML, CSS, JavaScript
+
 🧠 Algorithms: Data Structures and Algorithms (DSA)
+
 ☁️ Cloud: AWS
+
 👨‍💻 About Me:
 I thrive on turning complex problems into elegant solutions. My love for clean, efficient code is only rivaled by my commitment to continuous learning. In a rapidly evolving tech landscape, adaptability is my superpower.
 
