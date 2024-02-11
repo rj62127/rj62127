@@ -1,7 +1,8 @@
+🚀 Welcome to my coding playground! 🌟
+
+
 ### Hello I'm Rajan Jha! 👋
 
-
-🚀 Welcome to my coding playground! 🌟
 
 As a passionate software developer, I bring a blend of creativity and precision to the world of programming. My journey through the realms of code has equipped me with a versatile set of technical skills that make me a dynamic force in the software development sphere.
 
