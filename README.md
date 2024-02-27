@@ -32,19 +32,6 @@ I thrive on turning complex problems into elegant solutions. My love for clean, 
 🚀 Let's Collaborate:
 If you're looking for a developer who brings not only technical prowess but also a keen eye for innovation, you're in the right place. I'm ready to embark on new coding adventures and contribute to projects that push the boundaries of what's possible. Let's build something extraordinary together! 💻✨
 
-
-- **Most Used Language:** [Dynamic: Fetch from GitHub API]
-- **GitHub Stats:** [Dynamic: Fetch from GitHub API]
-- **Total Contributions:** [Dynamic: Fetch from GitHub API]
-- **Streak:** [Dynamic: Fetch from GitHub API]
-- **Longest Streak:** [Dynamic: Fetch from GitHub API]
-- **Repositories Count:** [Dynamic: Fetch from GitHub API - Total number of repositories]
-- **Followers Count:** [Dynamic: Fetch from GitHub API - Total number of followers]
-- **Following Count:** [Dynamic: Fetch from GitHub API - Total number of users being followed]
-- **Public Repositories Count:** [Dynamic: Fetch from GitHub API - Total number of public repositories]
-- **Gists Count:** [Dynamic: Fetch from GitHub API - Total number of gists]
-- **Organizations Count:** [Dynamic: Fetch from GitHub API - Total number of organizations]
-
 Connect with me and let's code our way to success! 🚀🌟
 
 
