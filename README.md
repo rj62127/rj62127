@@ -837,7 +837,6 @@ I write about engineering problems I've implemented or explored across backend s
 
 ---
 
-# 🌍 Global Time
 
 # 🌍 Global Time
 
