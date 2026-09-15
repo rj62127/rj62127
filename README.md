@@ -134,7 +134,7 @@ It orchestrates:
 ## 🎨 AutoInfra Architecture
 
 <p align="center">
-  <img src="./assets/autoinfra-architecture.png"
+  <img src="./autoinfra-architecture.png"
        width="100%"
        alt="AutoInfra Multi-Cloud Architecture" />
 </p>
@@ -839,25 +839,20 @@ I write about engineering problems I've implemented or explored across backend s
 
 # 🌍 Global Time
 
-<!-- GLOBAL-TIME:START -->
+# 🌍 Global Time
 
-<div align="center">
+<!-- GLOBAL-TIME:START -->
 
 | 🇮🇳 India | 🇬🇧 London | 🇺🇸 New York | 🇺🇸 San Francisco |
 |:---:|:---:|:---:|:---:|
-| `--:-- IST` | `--:--` | `--:--` | `--:--` |
+| **Updating...** | **Updating...** | **Updating...** | **Updating...** |
 
 | 🇦🇪 Dubai | 🇸🇬 Singapore | 🇦🇺 Sydney |
 |:---:|:---:|:---:|
-| `--:-- GST` | `--:-- SGT` | `--:--` |
-
-</div>
+| **Updating...** | **Updating...** | **Updating...** |
 
 <!-- GLOBAL-TIME:END -->
 
-<p align="center">
-<i>🌎 Automatically updated timezone dashboard</i>
-</p>
 
 ---
 
