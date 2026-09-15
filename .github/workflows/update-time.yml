@@ -1,0 +1,85 @@
+name: Update Global Time
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-time:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update global time
+        run: |
+          python <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+
+          zones = {
+              "india": ("Asia/Kolkata", "IST"),
+              "london": ("Europe/London", ""),
+              "new_york": ("America/New_York", ""),
+              "san_francisco": ("America/Los_Angeles", ""),
+              "dubai": ("Asia/Dubai", "GST"),
+              "singapore": ("Asia/Singapore", "SGT"),
+              "sydney": ("Australia/Sydney", ""),
+          }
+
+          def get_time(key):
+              zone, label = zones[key]
+              now = datetime.now(ZoneInfo(zone))
+              time = now.strftime("%I:%M %p").lstrip("0")
+              return f"{time} {label}".strip()
+
+          content = f"""<!-- GLOBAL-TIME:START -->
+
+          | 🇮🇳 India | 🇬🇧 London | 🇺🇸 New York | 🇺🇸 San Francisco |
+          |:---:|:---:|:---:|:---:|
+          | **{get_time('india')}** | **{get_time('london')}** | **{get_time('new_york')}** | **{get_time('san_francisco')}** |
+
+          | 🇦🇪 Dubai | 🇸🇬 Singapore | 🇦🇺 Sydney |
+          |:---:|:---:|:---:|
+          | **{get_time('dubai')}** | **{get_time('singapore')}** | **{get_time('sydney')}** |
+
+          <!-- GLOBAL-TIME:END -->"""
+
+          path = Path("README.md")
+          readme = path.read_text()
+
+          start = readme.index("<!-- GLOBAL-TIME:START -->")
+          end = readme.index("<!-- GLOBAL-TIME:END -->") + len(
+              "<!-- GLOBAL-TIME:END -->"
+          )
+
+          readme = readme[:start] + content + readme[end:]
+          path.write_text(readme)
+          PY
+
+      - name: Commit updated time
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "chore: update global time"
+          git push
