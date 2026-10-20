@@ -844,11 +844,11 @@ I write about engineering problems I've implemented or explored across backend s
 
 | 🇮🇳 India | 🇬🇧 London | 🇺🇸 New York | 🇺🇸 San Francisco |
 |:---:|:---:|:---:|:---:|
-| **6:47 PM IST** | **2:17 PM** | **9:17 AM** | **6:17 AM** |
+| **11:48 PM IST** | **7:18 PM** | **2:18 PM** | **11:18 AM** |
 
 | 🇦🇪 Dubai | 🇸🇬 Singapore | 🇦🇺 Sydney |
 |:---:|:---:|:---:|
-| **5:17 PM GST** | **9:17 PM SGT** | **12:17 AM** |
+| **10:18 PM GST** | **2:18 AM SGT** | **5:18 AM** |
 
 <!-- GLOBAL-TIME:END -->
 
